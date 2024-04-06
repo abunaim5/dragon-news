@@ -1,3 +1,4 @@
+import AllCategory from "../../components/AllCategory/AllCategory";
 import Header from "../../components/Header/Header";
 import LatestNews from "../../components/LatestNews/LatestNews";
 import NavBar from "../../components/NavBar/NavBar";
@@ -9,9 +10,14 @@ const Home = () => {
                 <Header></Header>
             </div>
             <div className="mb-5">
-            <LatestNews></LatestNews>
+                <LatestNews></LatestNews>
             </div>
-            <NavBar></NavBar>
+            <div>
+                <NavBar></NavBar>
+            </div>
+            <div>
+                <AllCategory></AllCategory>
+            </div>
         </div>
     );
 };
