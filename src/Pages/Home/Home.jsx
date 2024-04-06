@@ -10,7 +10,7 @@ const Home = () => {
     const news = useLoaderData()
 
     return (
-        <div>
+        <div className="max-w-6xl mx-auto">
             <div className="mb-8">
                 <Header></Header>
             </div>
